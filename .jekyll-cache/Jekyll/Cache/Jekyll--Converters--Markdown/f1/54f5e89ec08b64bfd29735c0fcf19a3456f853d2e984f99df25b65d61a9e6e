@@ -1,0 +1,17 @@
+I"6<h1 id="home-page">Home Page</h1>
+<h4 id="-neil">-Neil</h4>
+
+<h2 id="hello-world">HELLO WORLD!</h2>
+
+<p>This is HOME page.</p>
+
+<h3 id="the-developer-neil-is-tired">The developer neil is tired</h3>
+
+<h2 id="step-for-creating-new-jekyll-site">Step for Creating new jekyll site:</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">sh jekyll new site/ --blank</code></li>
+  <li><code class="language-plaintext highlighter-rouge">sh cd site/</code></li>
+  <li><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code></li>
+</ul>
+:ET

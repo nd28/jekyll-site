@@ -1,0 +1,16 @@
+<nav>
+  <ul>
+    
+    <!-- navigations -->
+    {% for item in site.data.navigation %}
+    <li>
+
+      <a href="{{ item.link }}" {% if page.url == item.link %} class="current-page-highlight" {% endif %}>
+        {{ item.name | upcase }}
+      </a>
+      
+    </li>
+    {% endfor %}
+
+  </ul>
+</nav>
