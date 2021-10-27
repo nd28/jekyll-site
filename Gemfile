@@ -2,6 +2,6 @@
 
 source "https://rubygems.org"
 
-git_source(:github) { |repo_name| "https://github.com/nd28/jekyll-site" }
+# git_source(:github) { |repo_name| "https://github.com/nd28/jekyll-site" }
 
 gem "github-pages"
