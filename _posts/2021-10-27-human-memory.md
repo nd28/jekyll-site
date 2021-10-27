@@ -1,7 +1,7 @@
 ---
 title: "Human memory: How we make, remember, and forget memories"
 date: "2021-10-27 05:26"
-author: "jo"
+author: jo
 ---
 
 
