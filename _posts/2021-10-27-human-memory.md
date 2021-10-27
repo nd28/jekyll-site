@@ -1,10 +1,10 @@
 ---
-title: "human-memory"
+title: "Human memory: How we make, remember, and forget memories"
 date: "2021-10-27 05:26"
-author:
+author: "jo"
 ---
 
-# Human memory: How we make, remember, and forget memories
+
 
 From the moment we are born, our brains are bombarded by an immense amount of information about ourselves and the world around us. So, how do we hold on to everything we've learned and experienced? Memories.
 
