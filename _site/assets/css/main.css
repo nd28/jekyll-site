@@ -1,25 +1,64 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box; }
 
-body { background: #272727; color: #ddd; font-family: -apple-system, BlinkMacSystemFont, Lato, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px; font-size: 1.35em; font-weight: 300; margin: 0; }
+body {
+  background: #272727;
+  color: #ddd;
+  font-family: -apple-system, BlinkMacSystemFont, Lato, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px;
+  font-size: 1.35em;
+  font-weight: 300;
+  margin: 0; }
+  body a {
+    color: #fc0;
+    text-decoration: none; }
+  body code {
+    background-color: #272727;
+    padding: 6px;
+    border-radius: 2px; }
 
-body a { color: #fc0; text-decoration: none; }
+header {
+  background-color: #2b2b2b;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  header nav ul {
+    list-style: none;
+    padding: 0; }
+    header nav ul li {
+      display: inline-block; }
+      header nav ul li a {
+        display: block;
+        font-size: .675em;
+        text-decoration: none;
+        font-weight: 900;
+        padding: 6px 1.675em; }
 
-body code { background-color: #272727; padding: 6px; border-radius: 2px; }
+.current-page-highlight {
+  color: #2e2705;
+  background-color: #fc0;
+  border-radius: .357rem; }
 
-header { background-color: #2b2b2b; margin-top: 0; display: flex; align-items: center; justify-content: center; }
+section {
+  background-color: #272727;
+  display: grid;
+  grid-template-columns: 1fr 70% 1fr;
+  padding: .8em 0; }
+  section div {
+    grid-column: 2 / 3;
+    background-color: #444;
+    padding: 6px 1.675em;
+    margin: 0 2em;
+    border-radius: .876em; }
 
-header nav ul { list-style: none; padding: 0; }
+@media screen and (max-width: 600px) {
+  section {
+    display: block;
+    padding: .8em 0; }
+    section div {
+      margin: 0 2em;
+      font-size: .756em; }
 
-header nav ul li { display: inline-block; }
-
-header nav ul li a { display: block; font-size: .675em; text-decoration: none; font-weight: 900; padding: 6px 1.675em; }
-
-.current-page-highlight { color: #2e2705; background-color: #fc0; border-radius: .357rem; }
-
-section { background-color: #272727; display: grid; grid-template-columns: 1fr 70% 1fr; padding: .8em 0; }
-
-section div { grid-column: 2 / 3; background-color: #444; padding: 6px 1.675em; margin: 0 2em; border-radius: .876em; }
-
-@media screen and (max-width: 600px) { section { display: block; padding: .8em 0; } section div { margin: 0 2em; font-size: .756em; } header nav ul li { display: block; } }
-
-/*# sourceMappingURL=main.css.map */
+  header nav ul li {
+    display: block; } }
